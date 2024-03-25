@@ -5,13 +5,3 @@ Special Instructions for running program:
 2) "./fw [filename] [filename2]"
 3) If specific number of words diplayed is desired, use "-n [num]" in call
 
-Initially I created a working program that did not use the hash table ("original.c"),
-but a flat variable size array of pointers. That program is functional but not ideal performance wise.
-If you'd like to try it, please rename/replace original.c to fw.c and run make again. 
-
-With the little time left to complete the assignment, I changed the implementation to use a hash table.
-Performance is better but I am having a problem with the resizing of the hash map.
-That's the solution found on current fw.c.
-
-Therefore, the current code is hardcoded to a large size meaning there is a limit in file size for the program.
-With more time that could have been corrected.
